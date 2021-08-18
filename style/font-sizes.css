@@ -1,0 +1,52 @@
+/*Font-Size*/
+.reviews__list-cart-quotas {
+    font-size: 98px;
+    line-height: 99px;
+}
+h1 {
+    font-size: 52px;
+    line-height: 68px;
+}
+.cards__item-price .price {
+    font-size: 46px;
+    line-height: 60px;
+}
+h2 {
+    font-size: 38px;
+    line-height: 50px;
+}
+h3 {
+    font-size: 28px;
+    line-height: 34px;
+}
+.header__info-subtitle, .benefits__item-info,
+.section__content-info, .video__info,
+.options__info, .brands__info {
+    font-size: 22px;
+    line-height: 34px;
+}
+.header__nav-menu-item, .cards__item-price .duration,
+.cards__item-list-item, .footer__menu-links-title {
+    font-size: 20px;
+    line-height: 32px;
+}
+.button, .cards__item-title, .cards__item-info,
+.reviews__list-cart-text, .reviews__list-cart-user-username,
+.footer__menu-links-item {
+    font-size: 18px;
+    line-height: 24px;
+}
+.button-description, .request__form-image-info {
+    font-size: 17px;
+    line-height: 26px;
+}
+.options__switch-item, .reviews__list-cart-user-from ,
+.request__form input, .request-button, .footer__main-links-item,
+.footer__main-social-networks-item {
+    font-size: 16px;
+    line-height: 22px;
+}
+.attach-button {
+    font-size: 14px;
+    line-height: 40px;
+}
