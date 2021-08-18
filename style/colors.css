@@ -33,8 +33,7 @@
 .section#reverse, .cards__item, .request__form {
     background: #FFFFFF;
 }
-.header__nav-menu-item, .header__info-subtitle,
-.header__info-button-description,.video__info,
+.header__nav-menu-item, .header__info-subtitle, .video__info,
 .footer__menu-links-title, .footer__main, .footer__main-links-item,
 .footer__main-social-networks-item {
     color: #DBE4F1;
