@@ -35,7 +35,7 @@ document.getElementById("play").addEventListener("click", function (e) {
 // Choosing a period
 document.getElementById("monthly").onclick = function(){
     this.style.backgroundColor ="#50E3C2";
-    document.getElementById("yearly").style.backgroundColor ="#F8FBFE";
+    document.getElementById("yearly").style.backgroundColor ="rgba(80, 227, 174, 0)";
     document.getElementById("basic-price").innerHTML = "$19";
     document.getElementById("pro-price").innerHTML = "$29";
     document.getElementById("pro-duration").innerHTML = "/month";
@@ -43,7 +43,7 @@ document.getElementById("monthly").onclick = function(){
 };
 document.getElementById("yearly").onclick = function(){
     this.style.backgroundColor ="#50E3C2";
-    document.getElementById("monthly").style.backgroundColor ="#F8FBFE";
+    document.getElementById("monthly").style.backgroundColor ="rgba(80, 227, 174, 0)";
     document.getElementById("basic-price").innerHTML = "$200";
     document.getElementById("pro-price").innerHTML = "$320";
     document.getElementById("pro-duration").innerHTML  =  "/year";
@@ -54,11 +54,11 @@ document.getElementById("yearly").onclick = function(){
 
 //Package selection
 document.getElementById("basic").onclick = function(){
-    this.style.borderTop ="#50E3C2 solid";
-    document.getElementById("pro").style.borderTop ="white";
+    this.style.border ="#50E3C2 solid";
+    document.getElementById("pro").style.border ="white";
 };
 document.getElementById("pro").onclick = function(){
-    this.style.borderTop ="#50E3C2 solid";
-    document.getElementById("basic").style.borderTop ="white";
+    this.style.border ="#50E3C2 solid";
+    document.getElementById("basic").style.border ="white";
 };
 
