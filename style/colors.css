@@ -42,7 +42,7 @@
     color: #F8FBFE;
 }
 .section, .options {
-    background: #F8FBFE;
+    background: rgba(80, 227, 174, 0.15);
 }
 .benefits__item-info, .section__content-info,
 .reviews__list-cart-user-username, .reviews__list-cart-user-from,
@@ -73,7 +73,7 @@
     border-right: 1px solid rgba(80, 227, 174, 0.5);
 }
 .benefits__item#non-border {
-    border-right: none;
+    border: none;
 }
 
 
@@ -81,9 +81,6 @@
 /*Sections*/
 .section__image {
     filter: drop-shadow(3px 3px 5px rgba(176, 196, 222, 0.5));
-}
-.section__content-button {
-    background: rgba(80, 227, 194, 0.14);
 }
 
 
@@ -97,9 +94,8 @@
 
 /*Options*/
 .options__switch {
-    border: 1px solid #E8E8EA;
+    border: 1px solid #50E3C2;
 }
-
 
 
 /*Cards*/
@@ -127,7 +123,7 @@
 
 /*Request*/
 .request {
-    background: linear-gradient(to top, #F8FBFE 70%, #FFFFFF 30%);
+    background: linear-gradient(to top, rgba(80, 227, 174, 0.5), white);
 }
 .request__form {
     border: 1px solid #E8E8EA;
