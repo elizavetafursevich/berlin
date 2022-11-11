@@ -15,8 +15,9 @@ body, h1,.benefits__item-title, .header__info-subtitle,
 a {
     text-decoration: none;
 }
-
-
+.hide{
+    display: none;
+}
 
 
 /*Buttons*/
